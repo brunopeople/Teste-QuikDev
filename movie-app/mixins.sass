@@ -1,0 +1,91 @@
+@import Variaveis;
+    
+    @mixin header{
+    paddding: 1rem;
+    display: flex;
+    justify-content: flex;
+    background-color: var($cor-secundaria);
+}
+
+    @mixin search{
+        background-color: transparent;
+        border: 2px solid var(--$cor-primaria);
+        padding: 0.5rem 1rem;
+        border-radius: 50px;
+        font-size: 1rem;
+        color: $cor;
+        font-family: inherit;
+    }
+
+    @mixin search-focus{
+        outline: 0;
+        background-color: var(--$cor-primaria);
+    }
+
+    @mixin search-placeholder{
+        color: $cor-pesquisa;
+    }
+
+    @mixin main{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    @mixin movie{
+        width: $largura;
+        margin: $margem;
+        border-radius: $raio-borda;
+        box-shadow: $caixa-sombra;
+    }
+
+    @mixin movie-info{
+        color: #eee;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding:0.5rem 1rem 1rem;
+        letter-spacing: 0.5px;
+    }
+
+    @mixin movie-info-span{
+        background-color: var(--$cor-primaria);
+        padding: $preenchemento-movie;
+        border-radius: $raio-borda-movie;
+        font-weight: $fonte-peso-info;
+    }
+
+    @mixin overview{
+        position: absolute;
+        left:$esquerda;
+        right: $direita;
+        bottom: $borda;
+        background-color: $cor-fundo-overview;
+        padding: $preenchemento-overview;
+        max-height: $altura-maxima;
+        transform: translateY(101%);
+        transition: transform 0.3s ease-in;
+    }
+    
+    @mixin movie-hover-overview{
+        transform: translateY(0)
+    }
+    
+    @mixin tags{
+        width: $largura-tags;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
+    }
+
+    @mixin tag {
+        color: white;
+        padding: 10px 20px;
+        background-color: orange;
+        border-radius: 50px;
+        margin: 5px;
+        display: inline-block;
+        cursor: pointer;
+    }
