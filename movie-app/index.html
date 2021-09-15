@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta chaset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <tittle>Movie App</tittle>
+    </head>
+
+    <body>
+        <header>
+            <form id="form">
+                <input type="text" placeholder="Pesquisa" id="search" class="search">
+            </form>
+        </header>
+        <div id="tags"></div>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content" id="overlay-content"></div>
+        
+            <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a> 
+            
+            <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow" >&#8658;</a>
+
+            <main id="main"></main>
+            <div class="pagination">Página Anterior</div>
+            <div class="current" id="current">1</div>
+            <div class="page" id="next">Próximo</div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
