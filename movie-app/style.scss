@@ -6,12 +6,12 @@
 }
 
 :root{
-    --primary-color: $cor-primaria;
-    --secondary-color: $cor-secundaria;
+    --primary-color:#22254b;
+    --secondary-color: #373b69;
 }
 
 body{
-    background-color: var($cor-primaria);
+    background-color: var(--primary-color);
     font-family: $fonte-poppins;
     margin: 0;
 }
@@ -166,7 +166,7 @@ main{
 }
 
 .dots {
-    margin-top: $dot-margem;
+    margin-top: 30px;
 }
 
 .dots .dot{

@@ -1,15 +1,18 @@
-
+ :root{
+    --primary-color:#22254b;
+    --secondary-color: #373b69;
+ }
     
     @mixin header{
-    paddding: 1rem;
+    padding: 1rem;
     display: flex;
     justify-content: flex;
-    background-color: var($cor-secundaria);
+    background-color: var(--secondary-color);
 }
 
     @mixin search{
         background-color: transparent;
-        border: 2px solid var(--$cor-primaria);
+        border: 2px solid var(--primary-color);
         padding: 0.5rem 1rem;
         border-radius: 50px;
         font-size: 1rem;
@@ -19,7 +22,7 @@
 
     @mixin search-focus{
         outline: 0;
-        background-color: var(--$cor-primaria);
+        background-color: var(--primary-color);
     }
 
     @mixin search-placeholder{
@@ -37,6 +40,8 @@
         margin: $margem;
         border-radius: $raio-borda;
         box-shadow: $caixa-sombra;
+        position: relative;
+        overflow: hidden;
     }
 
     @mixin movie-info{
@@ -49,7 +54,7 @@
     }
 
     @mixin movie-info-span{
-        background-color: var(--$cor-primaria);
+        background-color: var(--primary-color);
         padding: $preenchemento-movie;
         border-radius: $raio-borda-movie-info;
         font-weight: $fonte-peso-info;
@@ -68,7 +73,7 @@
     }
     
     @mixin movie-hover-overview{
-        transform: translateY(0)
+        transform: translateY()
     }
     
     @mixin tags{
