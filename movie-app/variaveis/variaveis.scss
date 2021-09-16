@@ -4,14 +4,13 @@ $cor-secundaria: #373b69;
 
 
 //Variavel fonte
-$fonte-poppins: 'Poppins', sans-serif
+$fonte-poppins: 'Poppins', sans-serif;
 
 //Variavel header
 $preenchimento: 1rem;
 $pano-de-fundo: tranparent;
 $borda: 2px solid;
 $cor: #fff;
-font-family: inherit;
 
 
 //search 
@@ -62,8 +61,8 @@ $altura-maxima: 100%;
 
 //tags
 
-$largura-tag: 80%;
-$margem-tag: 10px auto;
+$largura-tags: 80%;
+$margem-tags: 10px auto;
 
 //tag-highlight
 $cor-fundo-tag: red;
@@ -80,3 +79,32 @@ $preenchimento-pagina: 20px;
 
 //page.disabled
 $cor-page-disabled: grey;
+
+//overlay-a
+$cor-overlay-a: #818181;
+
+    // cor overlay
+    $branco: #f1f1f1;
+
+//overlay closebtn
+$topo: 20px;
+$direita-overlay:45px;
+$tamanho-fonte: 60px;
+
+// arroy-left
+$topo-arrow: 50%;
+$arrow-esquerda: 5%;
+
+//arrow-right
+$topo-arrow-right: 50%;
+$direita-arrow-right: 5%;
+
+// dots
+$preenchimento-dot: 5px 15px;
+$raio-borda-dot: 50%;
+$borda-dot: 5px solid var(--$cor-secundaria);
+$branco-dot: white;
+$tamanho-fonte-dot: 20px;
+$peso-fonte-dot: 600;
+$dot-margem: 5px; 
+
