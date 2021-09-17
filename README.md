@@ -3,7 +3,7 @@
 * Aplicação Web Desenvolvida em HTML 5 puro, sass para a folha de estilo e javascript para o backend e a consulta para API. 
 
 
-** Imagens do APP
+*Imagens do APP
 
 *![Capturar](https://user-images.githubusercontent.com/24817323/133716693-5fd72406-d834-426b-b9eb-9c72893501ee.jpeg)
 
@@ -11,4 +11,5 @@
 
 
 **Como Rodar
-* Basciamente apenas rode o arquivo index.html no navagador da sua escolha e a aplicação vai rodar tranquilamente. 
+* Basciamente apenas rode o arquivo index.html no navagador da sua escolha e a aplicação vai rodar tranquilamente, a chave para realizar a consulta na api já está 
+locada numa variável dentro no arquivo script.js.
